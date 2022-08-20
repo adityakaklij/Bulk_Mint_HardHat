@@ -1,7 +1,14 @@
+body{
+
+  /* background-color:rgb(227 76 103); */
+  /* background-image: url('../Assets/bg.png'); */
+}
+
 .App {
   text-align: center;
   align-items: center;
   align-self: center;
+  color: rgb(0, 0, 0);
 }
 
 .inputFile{
@@ -30,7 +37,9 @@ button{
   color: aliceblue;
   font-size: 1em;
   font-weight:500;
-  background-color: rgb(25, 222, 240);
+  /* background-color: rgb(25, 222, 240); */
+  background-color: rgb(168 66 247);
+
   font-weight: bolder;
 
 }
@@ -79,7 +88,10 @@ h3{
   padding: 10px;
   cursor: pointer;
   border-radius: 16px;
-  background-color: rgb(25, 222, 240);
+  /* background-color: rgb(25, 222, 240);
+   */
+   background-color: rgb(168 66 247);
+
   color: white;
   margin-right: 60px;
 }

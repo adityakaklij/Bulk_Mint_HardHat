@@ -42,8 +42,8 @@ const ReadFile = () => {
 
     const sliceArray= (arr)=> {
         const newArray=[];
-        for(let i = 0; i < arr.length; i += 100 ){
-            const chunk = arr.slice(i , i + 100)// just change 2 to 100
+        for(let i = 0; i < arr.length; i += 3 ){
+            const chunk = arr.slice(i , i + 3)// just change 2 to 100
             newArray.push(chunk);
         }
         setSplitArray(newArray);
