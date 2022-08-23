@@ -80,6 +80,8 @@ const ReadFile = () => {
         setTotalMinted(totalMinted.toString())
     }
 
+    
+
 
 	return (
 		<div className="mainDiv">

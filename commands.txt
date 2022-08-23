@@ -1,0 +1,5 @@
+npm install react-terminal-command
+hardhat
+waffle
+
+npx hardhat run --network rinkeby scripts/index.js
